@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    width: auto;
+}
+
+nav{
+    background: #e9f0ff;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.home{
+    color: #415da1;
+    /* text-decoration: underline;
+    text-underline-offset: 0.4em; */
+}
+
+.wrlin:hover{
+    border-radius: 5px;
+    color: #415da1;
+}
+
+.logo{
+    line-height: 80px;
+    width: 150px;
+    margin-left: 20px;
+}
+.logo img{
+    margin-top: 10px;
+    width: 110px;
+}
+
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 100px;
+}
+nav ul li a{
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 7px 14px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: #415da1;
+    /* text-decoration: underline;
+    text-underline-offset: 0.4em; */
+}
+.checkbtn{
+    font-size: 20px;
+    color: var(--maincolor);
+    float: right;
+    line-height: 100px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+.fas{
+    background: #415da1;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+#check{
+    display: none;
+}
+
+.nav ul li a:hover{
+    color: #415da1;
+}
+.nav ul li a:after{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: var(--leafcolor);
+    transition: 0.3s all;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+    border-radius: 5px;
+}
+.nav ul li a:hover:after{
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+
+/* ------------ */
+.button-27 {
+  appearance: none;
+  background-color: #415da1;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-width: 0;
+  outline: none;
+  padding: 14px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------- */
+
+
+@media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 1000px){
+    nav{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .checkbtn{
+        display: block;
+    }
+    ul{
+      position: fixed;
+      width: 40%;
+      border-radius:  0  0  0 50px;
+      background: var(--maincolor);
+      top: 100px;
+      left: 100%;
+      transition: 0.5s all;
+      background: #e9f0ff;
+      margin-top: 20px;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 20px;
+    }
+    nav ul li a{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    a:hover, a.active{
+        background: none;
+        color: var(--leafcolor);
+    }
+    #check:checked ~ ul{
+        position: absolute;
+        left: 60%;
+        box-shadow: 0 4px 2px 2px rgba(0,0,0,.2);
+        background: #e9f0ff;
+        margin-top: 20px;
+        z-index: 1;
+    }
+    .sociallinks{
+        display: none;
+    }
+}
+@media screen and (max-width: 450px){
+    #check:checked ~ ul{
+        left: 40%;
+        background: #e9f0ff;
+        z-index: 1;
+    }
+    ul{
+        width: 60%;
+    }
+}
+/* ----------------------------- */
+.ourdoctors{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    gap: 50px;
+}
+.willia{
+    margin-top: 100px;
+}
+.elemma{
+    position: relative;
+    top: -200px;
+    left: -80px;
+    border-left: 6px solid #415da1;
+}
+.michel{
+    position: relative;
+    top: -200px;
+    left: 300px;
+    border-right: 6px solid #415da1;
+}
+.experience{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #39394a;
+}
+.sideboxte{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 150px;
+   height: 150px;
+   position: relative;
+   bottom: 0;
+   border-radius: 6px;
+
+   backdrop-filter: blur(13px) saturate(200%);
+    -webkit-backdrop-filter: blur(13px) saturate(200%);
+    background-color: rgba(231, 240, 255, 0.46);
+
+
+}
+.tick{
+    width:50px;
+    height: 50px;
+}
+.eloratext{
+  font-size: 18px;
+  color: #39394a;
+  line-height: 28px;
+}
+.elori img{
+    width: 400px;
+}
+.dr{
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+.dr:hover{
+    color: #415da1;
+    cursor: pointer;
+}
+.cardio{
+    font-weight: 500;
+    color: #39394a;
+}
+.theqstar{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.fa-star{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    color: #415da1;
+    letter-spacing: 2px;
+}
+.bio{
+    margin-bottom: 10px;
+}
+.fab{
+    font-size: 20px;
+    background: #415da1;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+.fab:hover{
+    transform: translate(0, -5px);
+}
+.fa-facebook-f:before, .fa-twitter:before, .fa-instagram:before { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7px;
+    font-size: 15px;
+}
+.socialicons{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.makeappi{ 
+  margin-left: 40px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+}
+/* --------------- */
+.footer{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: #e9f0ff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    display: flex;
+  }
+  
+  .footertext{
+    color: #39394a;
+    font-size: 16px;
+    padding-bottom: 20px;
+    width: 60%;
+  }
+  .footer-box{
+    padding: 10px;
+  }
+  .footer-img{
+    width: 40%;
+  }
+  .footer-img img{
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+  .foetfirsd{
+    padding-left: 40px;
+    width: 40%;
+  }
+  div.footericons{
+    width: 40%;
+  }
+  .foo-links{
+    color: #415da1;
+    margin-bottom: 20px;
+  }
+  .usefull-links li, .other-links li{
+    margin: 10px 0;
+  }
+  .usefull-links li a, .other-links li a{
+    color: #6b9832;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .usefull-links li a:hover , .other-links li a:hover{
+    color: #ffb20b;
+  }
+  .fa-location-dot , .fa-phone, .fa-envelope {
+    font-size: 30px;
+    margin-right: 20px;
+  }
+  .getinto{
+    font-size: 25px;
+    color: #39394a;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .intoss{
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .foogetin{
+    margin-right:  80px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+  }
+  .innerlane{
+    margin-bottom: 10px;
+    color: #171817;
+    font-weight: 500;
+  }
+  .address{
+    width: 60%;
+  }
