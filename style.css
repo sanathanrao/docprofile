@@ -342,10 +342,16 @@ nav ul li a{
     padding-top: 7px;
     font-size: 15px;
 }
+.fa-location-dot, .fa-phone , .fa-envelope {
+  color: #415da1;
+}
 .socialicons{
     display: flex;
     align-items: center;
     margin-top: 20px;
+}
+.arthwa{
+    margin-bottom: 40px;
 }
 .makeappi{ 
   margin-left: 40px;
@@ -471,9 +477,37 @@ nav ul li a{
   .address{
     width: 60%;
   }
+ .infiocomapa{
+    display: flex;
+ }
 
   @media screen and (max-width: 1100px){
-    .footer{
-        display: none;
+    .footertext{
+     width: 95%; 
     }
+    .foogetin{
+        margin-right: 40px;
+    }
+    .butiosm{
+        margin-right: 0;
+    }
+  }
+  @media screen and (max-width: 1000px){
+     .footer{
+        flex-direction: column;
+     }
+     div.footericons{
+        width: 100%;
+     }
+  }
+  @media screen and (max-width: 450px){
+    .footer{
+        padding-left: 20px;
+    }
+     .foogetin{
+        margin-right: 30px;
+     }
+     .footertext{
+        width: 90%;
+     }
   }
