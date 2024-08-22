@@ -110,6 +110,7 @@ nav ul li a{
 }
 
 /* ------------ */
+
 .button-27 {
   appearance: none;
   background-color: #415da1;
@@ -126,7 +127,7 @@ nav ul li a{
   margin: 0;
   min-width: 0;
   outline: none;
-  padding: 10px 2px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
@@ -287,6 +288,7 @@ nav ul li a{
   font-size: 18px;
   color: #39394a;
   line-height: 28px;
+  text-align: justify;
 }
 .elori{
     width: 400px;
@@ -380,7 +382,7 @@ nav ul li a{
         gap: 0;
     }
     .makeappi{
-        margin-left: 10px;
+        margin-left: 5px;
     }
     .dr{
         margin-top: 50px;
@@ -397,9 +399,6 @@ nav ul li a{
     }
     .dr{
         margin-top: 20px;
-    }
-    .fab{
-      margin-right: 5px;
     }
   }
 
