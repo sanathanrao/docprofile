@@ -285,8 +285,8 @@ nav ul li a{
 }
 .plusbox{
     position: relative;
-    left: 100px;
-    top: -15px;
+    left: 90px;
+    top: -20px;
 }
 .bate{
     background-color: #e9f0ff;
@@ -304,11 +304,18 @@ nav ul li a{
     flex-wrap: wrap;
     margin: 20px;
 }
-
+.oriosa{
+    height: 500px;
+}
 
 @media screen and (max-width: 1200px){
     .types{
         display: block;
+    }
+}
+@media screen and (max-width: 500px){
+    .oriosa{
+        height: 400px;
     }
 }
 
@@ -455,7 +462,7 @@ nav ul li a{
 .michel{
     position: relative;
     top: -200px;
-    left: 400px;
+    left: 320px;
     border-right: 6px solid #415da1;
 }
 .experience{
