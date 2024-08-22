@@ -11,6 +11,12 @@ body {
     width: auto;
 }
 
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
 nav{
     background: #e9f0ff;
     height: 120px;
@@ -109,11 +115,128 @@ nav ul li a{
     height: 100%;
 }
 
+/* ----------------------------- */
+.quality{
+    background: #e9f0ff;
+    padding: 0 0 0 60px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.docmain{
+    width: 600px;
+    margin-top: 20px;
+}
+.fortcen{
+  padding-top: 80px;
+  padding-left: 70px;
+}
+.smcare{
+    color: #39394a;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.healthheaid{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.curetedat{
+  color: #39394a;
+  font-size: 18px;    
+  word-spacing: 3px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.oursecvi{
+    padding: 10px 20px;
+    margin-bottom: 70px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.overleri{
+    display: flex;
+    gap: 30px;
+}
+.hearthicosnuie{
+    display: flex;
+}
+.hearthicosnuie img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.hteiec{
+    display: flex;
+    flex-direction: column;
+}
+.rp{
+    color: #39394a;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.nume{
+    font-size: 22px;
+}
+
+@media screen and (max-width: 1300px){
+  .quality{
+    display: block;
+    padding: 0 40px;
+  }
+  .fortcen{
+    padding-left: 0px;
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 650px){
+    .fortcen{
+        padding-top: 10px;
+    }
+    .docmain{
+        width: 500px;
+    }
+    .healthheaid{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 550px){
+    .docmain{
+        width: 400px;
+    }
+    .healthheaid{
+        font-size: 35px;
+    }
+    .overleri{
+        display: grid;
+    }
+    .oursecvi{
+        margin-bottom: 30px;
+        width: 150px;
+    }
+}
+@media screen and (max-width: 450px){
+    .quality{
+        padding: 15px;
+    }
+    .docmain{
+        width: 350px;
+    }
+    .healthheaid{
+        font-size: 28px;
+    }
+}
+
+
+
 /* ------------ */
-.meetdi{
+.meetdi {
     padding: 10px 20px;
 }
 .button-27 {
+  font-family: "Plus Jakarta Sans", sans-serif;
   appearance: none;
   background-color: #415da1;
   border: none;
@@ -122,11 +245,9 @@ nav ul li a{
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   font-size: 16px;
   font-weight: 600;
   line-height: normal;
-  margin: 0;
   min-width: 0;
   outline: none;
   text-align: center;
@@ -135,7 +256,6 @@ nav ul li a{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 100%;
   will-change: transform;
 }
 
@@ -153,20 +273,7 @@ nav ul li a{
   transform: translateY(0);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* ---------- */
-
 
 @media (max-width: 952px){
     label.logo{
@@ -257,7 +364,7 @@ nav ul li a{
 .michel{
     position: relative;
     top: -200px;
-    left: 300px;
+    left: 400px;
     border-right: 6px solid #415da1;
 }
 .experience{
@@ -363,7 +470,7 @@ nav ul li a{
   margin-left: 40px;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
-  padding: 10px 0px;
+  padding: 10px 15px;
 }
 
 @media screen and (max-width: 1100px){
