@@ -223,6 +223,102 @@ nav ul li a{
         width: 350px;
     }
 }
+/* -------------------------------- */
+.line{
+    font-family: "Plus Jakarta Sans", sans-serif;   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+}
+.esicr{
+    margin-top: 10px;
+}
+.tfs{
+    color: #39394a;
+    font-weight: 500;
+    margin-top: 5px;
+    font-size: 16px;
+}
+@media screen and (max-width: 600px){
+    .line{
+        display: block;
+        padding-left: 40px;
+        padding-top: 0;
+    }
+    .lineone{
+        display: flex;
+        margin-top: 30px;
+    }
+    .car{
+        margin-right: 40px;
+    }
+    .mand , .docu{
+        margin-right: 70px;
+    }
+}
+@media screen and (max-width: 400px){
+    .line{
+        display: block;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .lineone{
+        display: flex;
+        margin-top: 10px;
+    }
+}
+/* -------------------------------- */
+.types{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.onvobox{
+    width: 300px;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+.plusbox{
+    position: relative;
+    left: 100px;
+    top: -15px;
+}
+.bate{
+    background-color: #e9f0ff;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.baheadico{
+    margin-bottom: 10px;
+}
+.ontowridsp{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+
+@media screen and (max-width: 1200px){
+    .types{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -466,6 +562,10 @@ nav ul li a{
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
   padding: 10px 15px;
+}
+.batsmasw{
+    width: 400px;
+    height: 400px;
 }
 
 @media screen and (max-width: 1100px){
