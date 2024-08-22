@@ -391,10 +391,14 @@ nav ul li a{
     }
     .dr{
         margin-top: 50px;
+        font-size: 35px;
     }
      .elori , .batsmasw{
         width: 350px;
         height: 350px;
+    }
+    .bio{
+        font-size: 30px;
     }
   }
   @media screen and (max-width: 400px){
