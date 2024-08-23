@@ -401,7 +401,11 @@ nav ul li a{
       margin-left: 1px;
      }
   }
-
+  @media screen and (max-width:500px){
+    .numbersection{
+        border-radius: 60px;
+    }
+  }
   /* ____________________________________ */
 
 
