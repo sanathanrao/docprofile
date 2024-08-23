@@ -332,6 +332,7 @@ nav ul li a{
     font-size: 16px;
     border-radius: 100px;
     background-color: #e9f0ff;
+    margin-top: 50px;
   }
   .nu1{
     display: flex;
@@ -586,6 +587,9 @@ nav ul li a{
   line-height: 25px;
   text-align: justify;
 }
+.downeltwo{
+    margin-top: 10px;
+}
 .elori{
     width: 400px;
     height: 400px;
@@ -604,6 +608,9 @@ nav ul li a{
 .cardio{
     font-weight: 500;
     color: #39394a;
+}
+.diodtio{
+    margin: 10px 0;
 }
 .theqstar{
     display: flex;
