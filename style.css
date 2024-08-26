@@ -717,6 +717,340 @@ nav ul li a{
         margin-right: 8px;
     }
   }
+/* --------------------------------------- */
+.appointmentsec{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.baapmet{
+    font-size: 36px;
+}
+.baapmet:hover{
+    color: #415da1;
+}
+.diaaptmc{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+
+
+
+.getstatedtoday{
+    padding: 60px;
+  }
+  .thumok{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  /* ----------------- */
+  .getsectins{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+  /* ===FORM= */
+  .container {
+    color: #212E21;
+    max-width: 600px;
+    width: 100%;
+    padding: 0 60px 60px 30px  ;
+    border-radius: 5px;
+  }
+  .container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .container .title::before {
+    content: "";
+    position: absolute;
+    height: 3.5px;
+    width: 30px;
+    background: linear-gradient(135deg, var(--main-blue), var(--main-purple));
+    left: 0;
+    bottom: 0;
+  }
+  .input__box input{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-top: 10px;
+    padding-left: 15px;
+    font-size: 18px;
+    border: 1px solid #212121;
+    border-radius: 5px;
+  }
+  .emailplaceqwer{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 12px;
+  }
+  
+  .container form .user__details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  /* inside the form user details */
+  form .user__details .input__box {
+    width: calc(100% / 2 - 10px);
+    margin-bottom: 15px;
+  }
+  
+  .user__details .input__box .details .selectopti {
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+  }
+  .user__details .input__box input {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    border: 1px solid #212121;
+    border-radius: 5px;
+  }
+  .selectopti{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    border: 1px solid #212121;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  .selectopti option{
+    color: #212121;
+    
+  }
+  .user__details .input__box input:focus,
+  .user__details .input__box input:valid {
+    font-size: 18px;
+    border: 1px solid #212121;
+  }
+  
+  /* inside the form gender details */
+  
+  form .gender__details .gender__title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  form .gender__details .category {
+    display: flex;
+    width: 80%;
+    margin: 15px 0;
+    justify-content: space-between;
+  }
+  
+  .gender__details .category label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .gender__details .category .dot {
+    height: 18px;
+    width: 18px;
+    background: var(--sub-grey);
+    border-radius: 50%;
+    margin: 10px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  #dot-1:checked ~ .category .one,
+  #dot-2:checked ~ .category .two,
+  #dot-3:checked ~ .category .three {
+    border-color: var(--sub-grey);
+    background: var(--main-purple);
+  }
+  
+  form input[type="radio"] {
+    display: none;
+  }
+  
+  /* submit button */
+  form .button {
+    height: 45px;
+    margin: 45px 0;
+  }
+  
+  form .button input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: linear-gradient(135deg, var(--main-blue), var(--main-purple));
+    transition: all 0.3s ease;
+  }
+  
+  form .button input:hover {
+    background: linear-gradient(-135deg, var(--main-blue), var(--main-purple));
+  }
+  
+  @media only screen and (max-width: 584px) {
+    .container {
+      max-width: 100%;
+    }
+  
+    form .user__details .input__box {
+      margin-bottom: 15px;
+      width: 100%;
+    }
+  
+    form .gender__details .category {
+      width: 100%;
+    }
+  
+    .container form .user__details {
+      max-height: 300px;
+    }
+  
+    .user__details::-webkit-scrollbar {
+      width: 0;
+    }
+  }
+  @media  screen and (max-width: 500px){
+    .getstatedtoday{
+      padding: 30px;
+    }
+    .container{
+      padding: 0 30px;
+    }
+    .input__box textarea{
+      width: 100%;
+    }
+    .getivbqn{
+      margin-bottom: 30px;
+    }
+  }
+  
+  
+  
+  /* ==MEDIA QURIES */
+  @media screen and (max-width: 1000px){
+   .getsectins{
+     flex-direction: column;
+   }
+   .container{
+    padding-top: 0;
+   }
+  }
+  
+  
+  
+  /* -------------------- */
+  option[value=""][disabled] {
+    display: none;
+  }
+  .textsomeiie{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 18px;
+    border: 1px solid #212121;
+    border-radius: 5px;
+  }
+  .getivbqn{
+    margin-top: 20px;
+    font-weight: 500;
+    padding: 15px 20px;
+  }
+ 
+
+  .potential{
+    font-size: 20px;
+    color: #212e21;
+    font-weight: 500;
+    width: 90%;
+    line-height: 35px;
+  }
+  .details{
+    color: #212e21;
+    font-weight: 500;
+  }
+  /* --------------------------- */
+  .contactme{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    padding-bottom: 160px;
+    background-color: #212121;
+    color: #f3f2e7;
+  }
+  .nameandlink{
+    width: 100%;
+    text-align: center;
+  }
+  .profiname{
+    margin-bottom: 5px;
+  }
+  .growthseo{
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .coet {
+    cursor: pointer;
+    font-size: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: #ebebeb;
+    color: #212121;
+    font-size: 30px;
+    margin: 0 5px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .Ausopp{
+   font-size: 20px;
+   line-height: 35px;
+   font-style: italic;
+  }
+  
+  @media screen and (max-width: 1025px){
+    .contactme{
+      flex-direction: column;
+    }
+    .Ausopp{
+      margin-top: 20px;
+    }
+  }
+  @media screen and (max-width: 500px){
+    .contactme{
+      padding: 25px;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
 
 /* --------------- */
 .footer{

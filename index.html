@@ -288,6 +288,107 @@
                      </div>
                     </div>
                  </div>
+               <!-- ------------------------------------------  -->
+
+        
+
+
+               <div class="getsectins">
+
+               
+               <div class="container">
+                   
+               <div class="appointmentsec">
+                <h1 class="baapmet">Book an Appointment</h1>
+                <p class="diaaptmc">Diagnosy always help to provide proper treatment for most get proper cure and health life which is the cooperate.</p>
+               </div>
+
+                <form  method="post" name="cogllform"  id="contactFormgst" class="form-container">
+    
+                  <div class="user__details">
+                    <div class="input__box">
+                      <input id="firstname" name="firstname" type="text" placeholder="Name"  required>
+                    </div>
+    
+                    <div class="user__details input__box">
+                      <input id="phone" name="phone" type="tel" placeholder="Phone" pattern="[0-9]{10}" required>
+                    </div>
+                  </div>  
+    
+                    <div class="input__box">
+                      <!-- <span class="details">Email (required) </span> -->
+                      <input id="email" name="email" class="emailplaceqwer" type="email" placeholder="email address" required>
+                    </div>
+    
+                    <div class="input__box">
+                      <!-- <span class="details">What do you need help with?</span> -->
+                      <select id="subject" name="subject" class="selectopti">
+                        <option value="" disabled selected>Select your option</option>
+                        <option value="Arthrology">Arthrology</option>
+                        <option value="Gynaecology">Gynaecology</option>
+                        <option value="Orthopedist">Orthopedist</option>
+                      </select>
+                    </div>
+    
+                 
+                    
+                    <div class="input__box ">
+                      <!-- <span class="details">Message</span> -->
+                      <textarea  id="message" name="message" class="textsomeiie" placeholder="Write special note here"></textarea>
+                    </div>
+                   
+                    <span class="msg" id="msg"></span>
+                  <button type="submit" class="button-27 getivbqn" role="button">Book An Appointment</button>
+                </form>
+              </div>
+
+              <div class="getstatedtoday">
+                <img class="thumok" src="images/okthusmup.jpg" alt="">
+            </div>
+
+            </div>
+
+            <script>
+              document.getElementById('phone').addEventListener('input', function (e) {
+                  e.target.value = e.target.value.replace(/[^0-9]/g, '');
+               });
+
+
+               document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("contactFormgst").addEventListener("submit", function(event) {
+                event.preventDefault(); // Prevent form submission for testing
+                this.reset(); // Clear the form fields
+            });
+        });
+        
+
+            </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyJgfBpWgTe00MblfsQjoka9LuNA7Y-hkfjtcG8fRPwZbDMaJ2hnHXGVNaFIgPWu8I0/exec'
+  const form = document.forms['cogllform']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        msg.innerHTML = "Thank you! Form is submitted succesfully."
+        setTimeout(function(){
+           msg.innerHTML = ""
+        },9000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+
+
+
+
+
                  <!-- ----------------------------------------- -->
               
                  <div id="footer" class="footer">
