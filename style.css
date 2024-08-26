@@ -218,6 +218,7 @@ nav ul li a{
 @media screen and (max-width: 450px){
     .quality{
         padding: 15px;
+        padding-bottom: 0;
     }
     .docmain{
         width: 350px;
