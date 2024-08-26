@@ -40,7 +40,7 @@ nav{
 
 .logo{
     line-height: 80px;
-    width: 150px;
+    width: 120px;
     margin-left: 20px;
 }
 .logo img{
@@ -137,7 +137,7 @@ nav ul li a{
     letter-spacing: 2px;
 }
 .healthheaid{
-    font-size: 55px;
+    font-size: 45px;
     margin-bottom: 20px;
 }
 .curetedat{
@@ -197,7 +197,7 @@ nav ul li a{
         width: 500px;
     }
     .healthheaid{
-        font-size: 40px;
+        font-size: 35px;
     }
 }
 @media screen and (max-width: 550px){
@@ -205,7 +205,7 @@ nav ul li a{
         width: 400px;
     }
     .healthheaid{
-        font-size: 35px;
+        font-size: 32px;
     }
     .overleri{
         display: grid;
@@ -223,7 +223,109 @@ nav ul li a{
     .docmain{
         width: 350px;
     }
+    .healthheaid{
+      font-size: 27px;
+      margin-bottom: 10px;
+  }
 }
+/* ------------------------------------- */
+.Aboutus{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wavh{
+  color: #415da1;
+  font-size: 16px;
+  word-spacing: 5px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.cswhj{
+  font-size: 38px;
+  width: 40%;
+  text-align: center;
+  line-height: 1.342;
+}
+.aboutimstiex{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.adveio{
+  padding: 20px;
+}
+.vedatextnaout{
+  padding-left: 30px;
+  width: 45%;
+  color: #39394a;
+  font-size: 18px;
+  line-height: 35px;
+}
+.vedatextnaout span{
+  font-weight: bold;
+}
+@media screen and (max-width: 1140px){
+  .vedatextnaout{
+    padding-left: 0;
+  }
+  .adveio{
+    padding: 0;
+  }
+  .cswhj{
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1030px){
+  .aboutimstiex{
+    flex-direction: column;
+  }
+  .vedatextnaout{
+    width: 80%;
+    padding: 40px;
+  }
+}
+@media screen and (max-width: 700px){
+  .vedatextnaout{
+    width: 80%;
+    padding: 0px;
+    padding-top: 20px;
+  }
+  .adveio{
+    width: 500px;
+  }
+  .cswhj{
+    width: 100%;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 550px){
+  .vedatextnaout{
+    padding: 20px;
+    width: 100%;
+    text-align: justify;
+  }
+  .adveio{
+    width: 350px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 /* -------------------------------- */
 .line{
     font-family: "Plus Jakarta Sans", sans-serif;   
