@@ -319,9 +319,13 @@ nav ul li a{
   }
 }
 @media screen and (max-width: 550px){
+  .Aboutus, .aboutimstiex{
+    padding-top: 30px;
+  }
   .vedatextnaout{
     padding: 20px;
     width: 100%;
+    line-height: 30px;
     text-align: justify;
   }
   .adveio{
@@ -393,7 +397,7 @@ nav ul li a{
 }
 .onvobox{
     width: 300px;
-    height: 250px;
+    height: 260px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
     padding: 20px;
@@ -646,6 +650,13 @@ nav ul li a{
     }
 }
 /* ----------------------------- */
+.moe{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 52px;
+  text-align: center;
+  padding-top: 60px;
+  color: #415da1;
+}
 .ourdoctors{
     display: flex;
     margin: auto;
@@ -655,7 +666,7 @@ nav ul li a{
     gap: 50px;
 }
 .willia{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .elemma{
     position: relative;
@@ -819,6 +830,9 @@ nav ul li a{
     .bio{
         font-size: 30px;
     }
+    .moe{
+      font-size: 45px;
+    }
   }
   @media screen and (max-width: 400px){
     .elori , .batsmasw{
@@ -848,7 +862,13 @@ nav ul li a{
     margin-bottom: 10px;
     line-height: 30px;
 }
-
+@media screen and (max-width: 500px){
+  .diaaptmc{
+    margin-top: 10px;
+    line-height: 25px;
+  }
+}
+/* ----------------------------------------------- */
 
 
 
@@ -1045,7 +1065,7 @@ nav ul li a{
       padding: 30px;
     }
     .container{
-      padding: 0 30px;
+      padding: 0 20px;
     }
     .input__box textarea{
       width: 100%;
@@ -1207,7 +1227,7 @@ nav ul li a{
   
   .footertext{
     color: #39394a;
-    font-size: 16px;
+    font-size: 18px;
     padding-bottom: 20px;
     width: 90%;
   }
@@ -1298,6 +1318,10 @@ nav ul li a{
         margin-right: 30px;
      }
      .footertext{
-        width: 90%;
+        width: 100%;
+        line-height: 25px;
+     }
+     .footer-img img{
+      margin-bottom: 10px;
      }
   }
