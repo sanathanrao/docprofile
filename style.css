@@ -744,7 +744,6 @@ nav ul li a{
     width: 500px;
     height: 500px;
     object-fit: cover;
-    border-radius: 10px;
   }
   /* ----------------- */
   .getsectins{
@@ -944,7 +943,7 @@ nav ul li a{
   
   
   /* ==MEDIA QURIES */
-  @media screen and (max-width: 1000px){
+  @media screen and (max-width: 1030px){
    .getsectins{
      flex-direction: column;
    }
@@ -952,7 +951,36 @@ nav ul li a{
     padding-top: 0;
    }
   }
-  
+  @media screen and (max-width: 660px){
+    .getstatedtoday{
+      padding: 0;
+    }
+    .thumok{
+        width: 450px;
+        height: 450px;
+        padding: 20px;
+    }
+   }
+   @media screen and (max-width: 500px){
+    .getstatedtoday{
+      padding: 0;
+    }
+    .thumok{
+        width:  400px;
+        height: 400px;
+        padding: 20px;
+    }
+   }
+   @media screen and (max-width: 400px){
+    .getstatedtoday{
+      padding: 0;
+    }
+    .thumok{
+        width: 350px;
+        height: 350px;
+        padding-right: 20px;
+    }
+   }
   
   
   /* -------------------- */
