@@ -132,7 +132,7 @@ nav ul li a{
     background: #e9f0ff;
     padding: 0 0 0 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 .docmain{
@@ -190,7 +190,15 @@ nav ul li a{
 .nume{
     font-size: 22px;
 }
+/* ------max-width----- */
+@media screen and (max-width: 2150px){
+  .fortcen{
+    width: 50%;
+  }
+}
 
+
+/* ------------------- */
 @media screen and (max-width: 1300px){
   .quality{
     display: block;
@@ -866,6 +874,9 @@ nav ul li a{
   .diaaptmc{
     margin-top: 10px;
     line-height: 25px;
+  }
+  .baapmet{
+    font-size: 28px;
   }
 }
 /* ----------------------------------------------- */
