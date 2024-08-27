@@ -194,8 +194,10 @@ nav ul li a{
   .fortcen{
     width: 50%;
   }
-  .willia{
-    width: 50%;
+}
+@media screen and (max-width: 1450px){
+  .fortcen{
+    width: 100%;
   }
 }
 
