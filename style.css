@@ -130,7 +130,6 @@ nav ul li a{
 /* ----------------------------- */
 .quality{
     background: #e9f0ff;
-    padding: 0 0 0 60px;
     display: flex;
     justify-content: center;
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -193,6 +192,9 @@ nav ul li a{
 /* ------max-width----- */
 @media screen and (max-width: 2150px){
   .fortcen{
+    width: 50%;
+  }
+  .willia{
     width: 50%;
   }
 }
