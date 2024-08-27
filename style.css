@@ -1226,7 +1226,7 @@ nav ul li a{
     font-family: "Plus Jakarta Sans", sans-serif;
     display: flex;
     justify-content: center;
-    padding:30px ;
+    padding:60px ;
   }
   .addressinout{
     margin-left: 50px;
@@ -1257,6 +1257,9 @@ nav ul li a{
       }
   }
   @media screen and (max-width: 500px){
+    .maps{
+      padding: 30px;
+    }
    .frame{
     width: 300px;
    }
