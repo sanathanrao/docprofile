@@ -811,6 +811,7 @@ nav ul li a{
     height: 400px;
 }
 
+
 @media screen and (max-width: 1100px){
     .ourdoctors{
         flex-direction: column;
@@ -1220,9 +1221,45 @@ nav ul li a{
       padding: 25px;
     }
   }
-  
-
-
+  /* -------------------------------- */
+  .maps{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding:30px ;
+  }
+  .addressinout{
+    margin-left: 50px;
+    font-size: 22px;
+  }
+  .asdtrisd{
+    font-size: 40px;
+    color: #415da1;
+    margin-bottom: 20px;
+  }
+  .adhnoem{
+     align-items: center;
+     justify-content: center;
+  }
+  .frame{
+    width: 400px;
+  }
+  @media screen and (max-width: 900px){
+      .maps{
+        flex-direction: column;
+      }
+      .addressinout{
+        margin-left: 0;
+      }
+      .asdtrisd{
+        margin-top: 20px;
+      }
+  }
+  @media screen and (max-width: 500px){
+   .frame{
+    width: 300px;
+   }
+}
 
 
 
