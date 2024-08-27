@@ -194,6 +194,9 @@ nav ul li a{
   .fortcen{
     width: 50%;
   }
+  .ourdoctors{
+    width: 50%;
+  }
 }
 @media screen and (max-width: 1450px){
   .fortcen{
