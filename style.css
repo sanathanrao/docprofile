@@ -1266,6 +1266,7 @@ nav ul li a{
   }
   div.footericons{
     width: 40%;
+    margin-right: 30px;
   }
   .foo-links{
     color: #415da1;
@@ -1291,6 +1292,7 @@ nav ul li a{
     color: #39394a;
     font-weight: 600;
     margin-bottom: 20px;
+    margin-top: 15px;
   }
   .intoss{
     display: flex;
@@ -1301,7 +1303,10 @@ nav ul li a{
     font-family: "Plus Jakarta Sans", sans-serif;
   }
   .innerlane{
-    margin-bottom: 10px;
+    color: #171817;
+    font-weight: 500;
+  }
+  .innercomy{
     color: #171817;
     font-weight: 500;
   }
