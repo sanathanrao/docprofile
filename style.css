@@ -739,9 +739,12 @@ nav ul li a{
 .elori img{
     width: 400px;
 }
-.dr{
+.dr {
     font-size: 38px;
     margin-bottom: 5px;
+}
+.lmv{
+  font-size: 38px;
 }
 .dr:hover{
     color: #415da1;
@@ -860,6 +863,9 @@ nav ul li a{
     }
     .fab{
         margin-right: 8px;
+    }
+    .lmv{
+      font-size: 27px;
     }
   }
 /* --------------------------------------- */
