@@ -1103,6 +1103,14 @@ nav ul li a{
   
   
   /* ==MEDIA QURIES */
+ 
+  @media screen and (max-width: 1030px){
+    .getsectins{
+      margin-top: 40px;
+    }
+  }
+
+
   @media screen and (max-width: 1030px){
    .getsectins{
      flex-direction: column;
