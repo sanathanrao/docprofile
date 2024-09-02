@@ -1350,7 +1350,7 @@ nav ul li a{
     color: #39394a;
     font-weight: 600;
     margin-bottom: 20px;
-    margin-top: 15px;
+    margin-top: 100px;
   }
   .intoss{
     display: flex;
@@ -1388,6 +1388,9 @@ a:active { text-decoration: none; }
     }
     .butiosm{
         margin-right: 0;
+    }
+    .getinto{
+      margin-top: 20px;
     }
   }
   @media screen and (max-width: 1000px){
