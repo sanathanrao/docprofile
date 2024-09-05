@@ -804,7 +804,7 @@ nav ul li a{
     margin-bottom: 40px;
 }
 .makeappi{ 
-  margin-left: 40px;
+  /* margin-left: 40px; */
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
   padding: 10px 15px;
