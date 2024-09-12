@@ -887,7 +887,25 @@ nav ul li a{
   width: 600px;
   object-fit: contain;
   gap: 20px;
+  border-radius: 10px;
 }
+@media screen and (max-width: 700px){
+    .gall{
+      margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 700px){
+  .galleryimagesdd img{
+      width: 500px;
+  }
+}
+@media screen and (max-width: 520px){
+  .galleryimagesdd img{
+      width: 350px;
+  }
+}
+
 /* --------------------------------------- */
 .appointmentsec{
     font-family: "Plus Jakarta Sans", sans-serif;
