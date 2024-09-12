@@ -288,6 +288,7 @@ nav ul li a{
 }
 .adveio{
   padding: 20px;
+  border-radius: 15px;
 }
 .vedatextnaout{
   padding-left: 30px;
@@ -305,6 +306,7 @@ nav ul li a{
   }
   .adveio{
     padding: 0;
+    border-radius: 15px;
   }
   .cswhj{
     width: 70%;
