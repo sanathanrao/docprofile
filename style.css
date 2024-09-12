@@ -904,6 +904,9 @@ nav ul li a{
   .galleryimagesdd img{
       width: 350px;
   }
+  .galleryimagesdd{
+    gap: 5px;
+  }
 }
 
 /* --------------------------------------- */
